@@ -12,15 +12,14 @@ import {
 import Home from './components/Home';
 import About from './components/About';
 import Messages from './components/Messages';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+        <Header />
         <div className="menu">
             <ul>
               <li> <Link to="/">Home</Link> </li>
@@ -36,6 +35,7 @@ class App extends Component {
             <Redirect to="/" />
           </Switch>
         </div>
+        <Footer />
       </div>
     );
   }

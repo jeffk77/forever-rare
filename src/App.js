@@ -26,8 +26,4 @@ class App extends Component {
   }
 }
 
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-});
-
 export default App;

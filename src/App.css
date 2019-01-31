@@ -1,16 +1,62 @@
-.App {
-  text-align: center;
-}
-
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  color: black;
 }
 
-main {
-  flex: 1 0 auto;
+.infoBar {
+  background-color: rgb(32,32,32);
+  text-align: center;
+  color: rgb(220,220,220);
+  padding: 15px;
+  font-size: 0.75em;
+  font-weight: 200;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.detailBar {
+  background-color: rgb(245,245,245);
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.75em;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.headerBar {
+  text-align: center;
+  padding: 30px;
+}
+
+.headerBar #corpLogo {
+  height: 75px;
+}
+
+.headerBar p {
+  position: fixed;
+  font-size: 1em;
+}
+
+nav {
+  background-color: transparent;
+  color: black;
+}
+
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
+  color: black;
+}
+
+nav ul a {
+  color: black;
+}
+
+.material-icons {
+  font-size: 1em;
+}
+
+nav {
+  box-shadow: none;
+  border-bottom: 1px solid gray;
 }

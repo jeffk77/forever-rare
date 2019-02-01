@@ -27,21 +27,22 @@ body {
 
 .headerBar {
   text-align: center;
-  padding: 30px;
+  padding-top: 20px;
 }
 
 .headerBar #corpLogo {
-  height: 75px;
+  width: auto;
 }
 
 .headerBar p {
-  position: fixed;
   font-size: 1em;
 }
 
 nav {
   background-color: transparent;
   color: black;
+  box-shadow: none;
+  border-bottom: 1px solid gray;
 }
 
 .tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
@@ -56,7 +57,8 @@ nav ul a {
   font-size: 1em;
 }
 
-nav {
-  box-shadow: none;
-  border-bottom: 1px solid gray;
+.homeimageDiv {
+  height: 300px;
+  background-image: url("./assets/images/diamondScope.jpg");
+  background-color: black;
 }

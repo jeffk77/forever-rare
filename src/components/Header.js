@@ -9,7 +9,7 @@ const Header = () => (
     <div className="detailBar">
       FREE SHIPPING • 30 DAY MONEY BACK GUARANTEE • CUSTOM MADE JEWELLERY • FREE RETURNS
     </div>
-    <div className="headerBar">
+    <div className="headerBar z-depth-3">
       <div className="row">
         <div className="col s12 m2 l2 hide-on-med-and-down">
           <p><i className="material-icons">mail_outline</i><i className="material-icons">perm_phone_msg</i> +1 (416) 363-5825</p>
@@ -19,19 +19,21 @@ const Header = () => (
         </div>
         <div className="col s2"></div>
       </div>
+
+      <nav className="nav-center">
+        <div className="nav-wrapper">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="aboutUs.html">ABOUT US</a></li>
+            <li><a href="ourServices.html">OUR SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+
     </div>
 
-    <nav className="nav-extended">
-      <div className="nav-wrapper">
-        <ul id="nav-mobile" className="right">
-          <li><a href="home.html">HOME</a></li>
-          <li><a href="education.html">EDUCATION</a></li>
-          <li><a href="aboutUs.html">ABOUT US</a></li>
-          <li><a href="ourServices.html">OUR SERVICES</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </div>
-    </nav>
 
   </div>
 );

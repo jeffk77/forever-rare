@@ -1,4 +1,5 @@
 import React from 'react';
+import caratDiag from '../assets/images/caratWeight.jpg';
 
 const Home = () => (
   <div>
@@ -32,20 +33,25 @@ const Home = () => (
         <div class="col s12 m6 l3">
           <div class="card purple darken-4">
             <div class="card-content white-text">
-              <span class="card-title">Four C's: Color</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+              <span class="card-title">Four C's: Carat Weight</span>
+              <p>
+                There are many factors that determine a diamond’s brilliance, the most important of which is its ability to reflect light. As a diamond is moved through a light source, tiny flashes will be visible within the stone. Commonly known as sparkle, this is also referred to as scintillation, an effect of the stone’s reflection and refraction of light.
+              </p>
             </div>
 
             <div class="card-action">
-              <a href="#modalCarat">Learn More</a>
+              <a href="#modal1" className="modal-trigger">Learn More</a>
 
-              <div id="modalCarat" className="modal">
+              <div id="modal1" className="modal">
                 <div className="modal-content">
-                  <h3>The Four C's: Carat Weight</h3>
-                  <p>One carat is divided into 100 points, so that a diamond of 75 points weighs 0.75 carats. The carat-weight of a diamond is the easiest measurement to determine.
-                    <br />
-                    As the carat weight of a diamond increases, so does its rarity and therefore it's price and value.</p>
+                  <h4>The Four C's</h4>
+                  <img className="responsive-img" src={caratDiag} alt="Carat Weight Diagram" />
+                  <p>One carat is divided into 100 points, so that a diamond of
+                    75 points weighs 0.75 carats. The carat-weight of a diamond
+                    is the easiest measurement to determine.<br /><br />
+                    As the carat weight of a diamond increases,
+                    so does its rarity and therefore it's price and value.
+                  </p>
                 </div>
               </div>
 
@@ -54,26 +60,26 @@ const Home = () => (
           </div>
         </div>
 
-        <div class="col s12 m6 l3">
-          <div class="card purple darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Four C's: Carat Weight</span>
+        <div className="col s12 m6 l3">
+          <div className="card purple darken-4">
+            <div className="card-content white-text">
+              <span className="card-title">Four C's: Carat Weight</span>
               <p>I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively.</p>
             </div>
-            <div class="card-action">
+            <div className="card-action">
               <a href="#">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col s12 m6 l3">
-          <div class="card purple darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Four C's: Clarity</span>
+        <div className="col s12 m6 l3">
+          <div className="card purple darken-4">
+            <div className="card-content white-text">
+              <span className="card-title">Four C's: Clarity</span>
               <p>I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively.</p>
             </div>
-            <div class="card-action">
+            <div className="card-action">
               <a href="#">Learn More</a>
             </div>
           </div>

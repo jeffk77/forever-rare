@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from '../assets/images/FRDlogo.png';
-import About from './About';
 
 const Header = () => (
   <div>

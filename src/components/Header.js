@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../assets/images/FRDlogo.png';
+import About from './About';
 
 const Header = () => (
   <div>
@@ -12,10 +13,10 @@ const Header = () => (
     <div className="headerBar z-depth-3">
       <div className="row">
         <div className="col s12 m2 l2 hide-on-med-and-down">
-          <p><i className="material-icons">mail_outline</i><i className="material-icons">perm_phone_msg</i> +1 (416) 363-5825</p>
+          <h6><i className="material-icons">mail_outline</i><i className="material-icons">perm_phone_msg</i> +1 (416) 363-5825</h6>
         </div>
         <div className="col s12 m12 l8">
-          <img src={Logo} className="responsive-img" id="corpLogo" alt="FRD Logo" />
+          <img src={Logo} className="responsive-img logo" id="corpLogo" alt="FRD Logo" />
         </div>
         <div className="col s2"></div>
       </div>
@@ -24,7 +25,7 @@ const Header = () => (
         <div className="nav-wrapper">
           <ul>
             <li><a href="home.html">HOME</a></li>
-            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="about.html">EDUCATION</a></li>
             <li><a href="aboutUs.html">ABOUT US</a></li>
             <li><a href="ourServices.html">OUR SERVICES</a></li>
             <li><a href="contact.html">CONTACT</a></li>

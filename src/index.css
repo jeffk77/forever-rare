@@ -1,5 +1,7 @@
-html {
-    font-family: 'Poppins', sans-serif;
+/* font-family: 'Open Sans', sans-serif; */
+
+html, body {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 nav.nav-center ul {
@@ -11,4 +13,17 @@ nav.nav-center ul li {
 }
 nav.nav-center ul li a {
     display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.25em;
 }

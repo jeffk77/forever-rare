@@ -9,7 +9,7 @@ body {
   text-align: center;
   color: rgb(220,220,220);
   padding: 15px;
-  font-size: 0.75em;
+  font-size: 0.85em;
   font-weight: 200;
   text-align: center;
   letter-spacing: 1px;
@@ -20,14 +20,14 @@ body {
   color: black;
   text-align: center;
   padding: 10px;
-  font-size: 0.75em;
+  font-size: 0.85em;
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 .headerBar {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .headerBar #corpLogo {
@@ -38,19 +38,19 @@ body {
   font-size: 1em;
 }
 
+.logo {
+  padding-bottom: 50px;
+}
+
 nav {
-  background-color: transparent;
-  color: black;
+  background-color: black;
+  color: white;
   box-shadow: none;
   border-bottom: 1px solid gray;
 }
 
-.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover {
-  color: black;
-}
-
 nav ul a {
-  color: black;
+  color: white;
 }
 
 .material-icons {
@@ -65,3 +65,26 @@ nav ul a {
   background-position: center;
   background-size: cover;
 }
+
+.homeSection1, .homeSection2 {
+  text-align: center;
+  padding: 30px;
+}
+
+.divider {
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.midImg {
+  height: 500px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-image: url("./assets/images/yellowDiamonds.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+

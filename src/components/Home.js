@@ -36,11 +36,24 @@ const Home = () => (
               <p>I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively.</p>
             </div>
+
             <div class="card-action">
-              <a href="#">Learn More</a>
+              <a href="#modalCarat">Learn More</a>
+
+              <div id="modalCarat" className="modal">
+                <div className="modal-content">
+                  <h3>The Four C's: Carat Weight</h3>
+                  <p>One carat is divided into 100 points, so that a diamond of 75 points weighs 0.75 carats. The carat-weight of a diamond is the easiest measurement to determine.
+                    <br />
+                    As the carat weight of a diamond increases, so does its rarity and therefore it's price and value.</p>
+                </div>
+              </div>
+
             </div>
+
           </div>
         </div>
+
         <div class="col s12 m6 l3">
           <div class="card purple darken-4">
             <div class="card-content white-text">
@@ -81,6 +94,14 @@ const Home = () => (
 
       </div>
 
+    </div>
+
+    <div className="lowerImg parallax"></div>
+
+    <div class="row homeSection2">
+      <h1>CUSTOM JEWELLERY</h1>
+      <h5>INCREASE THE BEAUTY AND INCREASE THE VALUE!</h5>
+      <hr className="divider" />
     </div>
 
   </div>

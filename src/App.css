@@ -61,7 +61,7 @@ nav ul a {
   height: 300px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  background-image: url("./assets/images/diamondScope.jpg");
+  background-image: url("./assets/images/mixedDiamonds.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -88,3 +88,13 @@ nav ul a {
   background-repeat: no-repeat;
 }
 
+.lowerImg {
+  height: 500px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-image: url("./assets/images/customJewellery.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

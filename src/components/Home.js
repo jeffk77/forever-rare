@@ -1,11 +1,18 @@
 import React from 'react';
 import caratDiag from '../assets/images/caratWeight.jpg';
+import colorDiag from '../assets/images/colorgrades.png';
+import blueDiamondIcon from '../assets/images/bluediamondicon.png';
+import brownDiamondIcon from '../assets/images/browndiamondicon.png';
+import orangeDiamondIcon from '../assets/images/orangediamondicon.png';
+import pinkDiamondIcon from '../assets/images/pinkdiamondicon.png';
+import redDiamondIcon from '../assets/images/reddiamondicon.png';
+import yellowDiamondIcon from '../assets/images/yellowdiamondicon.png';
 
 const Home = () => (
   <div>
-    <div className="homeImg"></div>
+    <div className="homeImg parallax"></div>
 
-    <div class="row homeSection1">
+    <div className="row homeSection1">
       <h1>BEAUTY AND VALUE</h1>
       <h5>NATURAL COLOR DIAMONDS, A HARD ASSET CLASS A BILLION YEARS IN THE MAKING</h5>
       <hr className="divider" />
@@ -23,28 +30,28 @@ const Home = () => (
 
     <div className="midImg parallax"></div>
 
-    <div class="row homeSection2">
+    <div className="row homeSection2">
       <h1>EDUCATION</h1>
       <h5>NERVOUS ABOUT THE UNFAMILIAR? WE'LL EDUCATE YOU!</h5>
       <hr className="divider" />
 
       <div className="row">
 
-        <div class="col s12 m6 l3">
-          <div class="card purple darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Four C's: Carat Weight</span>
+        <div className="col s12 m12 l3">
+          <div className="card purple darken-4">
+            <div className="card-content white-text">
+              <span className="card-title">Four C's: Carat Weight</span>
               <p>
-                There are many factors that determine a diamond’s brilliance, the most important of which is its ability to reflect light. As a diamond is moved through a light source, tiny flashes will be visible within the stone. Commonly known as sparkle, this is also referred to as scintillation, an effect of the stone’s reflection and refraction of light.
+
               </p>
             </div>
 
-            <div class="card-action">
+            <div className="card-action">
               <a href="#modal1" className="modal-trigger">Learn More</a>
 
               <div id="modal1" className="modal">
                 <div className="modal-content">
-                  <h4>The Four C's</h4>
+                  <h4>The Four C's: Diamond Carat Weight</h4>
                   <img className="responsive-img" src={caratDiag} alt="Carat Weight Diagram" />
                   <p>One carat is divided into 100 points, so that a diamond of
                     75 points weighs 0.75 carats. The carat-weight of a diamond
@@ -60,19 +67,35 @@ const Home = () => (
           </div>
         </div>
 
-        <div className="col s12 m6 l3">
+        <div className="col s12 m12 l3">
           <div className="card purple darken-4">
             <div className="card-content white-text">
-              <span className="card-title">Four C's: Carat Weight</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+              <span className="card-title">Four C's: Color</span>
+              <p>The purest characteristic of the natural color diamonds,
+                is the vibrant hue it shows to the world. Glorious pinks,
+                luscious yellows, beautiful greens, and more make up the
+                broad and unique collection of nature's finest miracles.</p>
             </div>
             <div className="card-action">
-              <a href="#">Learn More</a>
+              <a href="#modal2" className="modal-trigger">Learn More</a>
+
+              <div id="modal2" className="modal">
+                <div className="modal-content">
+                  <h4>The Four C's: Diamond Colors Across the Spectrum</h4>
+                  <img className="responsive-img" src={caratDiag} alt="Carat Weight Diagram" />
+                  <p>One carat is divided into 100 points, so that a diamond of
+                    75 points weighs 0.75 carats. The carat-weight of a diamond
+                    is the easiest measurement to determine.<br /><br />
+                    As the carat weight of a diamond increases,
+                    so does its rarity and therefore it's price and value.
+                  </p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
-        <div className="col s12 m6 l3">
+        <div className="col s12 m12 l3">
           <div className="card purple darken-4">
             <div className="card-content white-text">
               <span className="card-title">Four C's: Clarity</span>
@@ -84,14 +107,13 @@ const Home = () => (
             </div>
           </div>
         </div>
-        <div class="col s12 m6 l3">
-          <div class="card purple darken-4">
-            <div class="card-content white-text">
-              <span class="card-title">Four C's: Cut</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+        <div className="col s12 m12 l3">
+          <div className="card purple darken-4">
+            <div className="card-content white-text">
+              <span className="card-title">Four C's: Cut</span>
+              <p>Many factors that determine a diamond’s brilliance. Primarily, is its ability to reflect light. As a diamond is moved through a light source, tiny flashes will be visible within the stone. Commonly known as sparkle, this is also referred to as scintillation.</p>
             </div>
-            <div class="card-action">
+            <div className="card-action">
               <a href="#">Learn More</a>
             </div>
           </div>
@@ -104,7 +126,7 @@ const Home = () => (
 
     <div className="lowerImg parallax"></div>
 
-    <div class="row homeSection2">
+    <div className="row homeSection2">
       <h1>CUSTOM JEWELLERY</h1>
       <h5>INCREASE THE BEAUTY AND INCREASE THE VALUE!</h5>
       <hr className="divider" />

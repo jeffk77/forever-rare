@@ -60,10 +60,11 @@ nav ul a {
 .homeImg {
   height: 300px;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
   background-image: url("./assets/images/mixedDiamonds.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .homeSection1, .homeSection2 {
@@ -79,8 +80,6 @@ nav ul a {
 
 .midImg {
   height: 500px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   background-image: url("./assets/images/yellowDiamonds.jpeg");
   background-position: center;
   background-size: cover;
@@ -90,8 +89,6 @@ nav ul a {
 
 .lowerImg {
   height: 500px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   background-image: url("./assets/images/customJewellery.jpg");
   background-position: center;
   background-size: cover;

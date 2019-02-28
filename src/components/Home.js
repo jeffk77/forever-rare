@@ -8,6 +8,14 @@ import pinkDiamondIcon from '../assets/images/pinkdiamondicon.png';
 import redDiamondIcon from '../assets/images/reddiamondicon.png';
 import yellowDiamondIcon from '../assets/images/yellowdiamondicon.png';
 
+import diamondRow from '../assets/images/diamondrow.png';
+import clarityScale from '../assets/images/clarityscale.png';
+import diamondLoupe from '../assets/images/diamondloupecrop.jpg';
+import dispersion from '../assets/images/dispersion.png';
+import giaCertcropped from '../assets/images/giacertcropped.jpg';
+import reflection from '../assets/images/reflection.png';
+
+
 const Home = () => (
   <div>
     <div className="homeImg parallax"></div>
@@ -160,9 +168,9 @@ const Home = () => (
                         <div className="card-content">
                           <span className="card-title">Pink Diamonds</span>
                           <p>
-                          Pink diamonds have long been the popular section of choice by investors and collectors worldwide,
-                          particularly Argyle diamonds, from the Argyle Mine in Australia, source of more than 90% of the
-                          world’s pinks. With the mine’s pending 2020 closure, these treasures are in higher demand than ever.
+                            Pink diamonds have long been the popular section of choice by investors and collectors worldwide,
+                            particularly Argyle diamonds, from the Argyle Mine in Australia, source of more than 90% of the
+                            world’s pinks. With the mine’s pending 2020 closure, these treasures are in higher demand than ever.
                           </p>
                         </div>
                       </div>
@@ -176,9 +184,9 @@ const Home = () => (
                         <div className="card-content">
                           <span className="card-title">Yellow Diamonds</span>
                           <p>
-                          Less common than brown diamonds, but fairly common compared to the other natural colors,
-                          demand for yellow diamonds has increased expontentially thanks to their huge demand in
-                          China and India for engagement rings and by collectors.
+                            Less common than brown diamonds, but fairly common compared to the other natural colors,
+                            demand for yellow diamonds has increased expontentially thanks to their huge demand in
+                            China and India for engagement rings and by collectors.
                           </p>
                         </div>
                       </div>
@@ -223,15 +231,34 @@ const Home = () => (
 
               <div id="modal3" className="modal">
                 <div className="modal-content">
-                  <h4>The Four C's: Diamond Colors Across the Spectrum</h4>
-                  <img className="responsive-img" src={caratDiag} alt="Carat Weight Diagram" />
+                  <h4>The Four C's: Diamond Clarity</h4>
+                  <img className="responsive-img" src={diamondRow} alt="Row of Diamonds" />
                   <p>
-                    One carat is divided into 100 points, so that a diamond of
-                    75 points weighs 0.75 carats. The carat-weight of a diamond
-                    is the easiest measurement to determine.<br /><br />
-                    As the carat weight of a diamond increases,
-                    so does its rarity and therefore it's price and value.
-                  </p>
+                    A diamond is defined by professionals and the public alike, most often by its cut,
+                    colour, clarity and carat weight contribute heavily as well to a diamond’s value and
+                    aesthetic appeal, however it’s the cut that impacts directly on the stone’s facets,
+                    proportions, and light reflection.
+
+                    Inclusions found on a diamond can be considered nature's birthmarks, the distinguishing
+                    characteristics that make the stone unique. When grading a diamond, the amount of inclusions
+                    and blemishes has a direct impact on its clarity and value. Flawless diamonds containing
+                    no inclusions are extremely rare and very expensive. A majority of the commercially sold
+                    diamonds contains inclusions that are undetectable to the unaided eye. To ensure a large
+                    selection, Brilliance offers diamonds with a range of clarity ratings from FL (Flawless)
+                    to I1 (Included). Diamonds with clarity ratings of I1 or higher contain inclusions that
+                    are typically undetectable without special magnified viewers.
+                  </p><br /><br />
+
+                  <img className="responsive-img" src={diamondLoupe} alt="Diamond Loupe" />
+                  <h5>Light's Effect on a Diamond</h5>
+                  <p>
+                    There are many factors that determine a diamond’s brilliance, the most important of which
+                    is its ability to reflect light. As a diamond is moved through a light source, tiny flashes
+                    will be visible within the stone. Commonly known as sparkle, this is also referred to as
+                    scintillation, an effect of the stone’s reflection and refraction of light.
+                  </p><br /><br />
+
+
                 </div>
               </div>
 

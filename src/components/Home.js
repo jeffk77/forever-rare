@@ -258,103 +258,102 @@ const Home = () => (
                     scintillation, an effect of the stone’s reflection and refraction of light.
                   </p><br /><br />
 
-
+                  </div>
                 </div>
-              </div>
 
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col s12 m12 l3">
-          <div className="card purple darken-4">
-            <div className="card-content white-text">
-              <span className="card-title">Four C's: Cut</span>
-              <p>
-                Many factors determine a diamond’s brilliance. Primarily, is its ability to reflect light.
-                As a diamond is moved through a light source, tiny flashes will be visible within the stone.
-                Commonly known as sparkle, this is also referred to as scintillation.
+          <div className="col s12 m12 l3">
+            <div className="card purple darken-4">
+              <div className="card-content white-text">
+                <span className="card-title">Four C's: Cut</span>
+                <p>
+                  Many factors determine a diamond’s brilliance. Primarily, is its ability to reflect light.
+                  As a diamond is moved through a light source, tiny flashes will be visible within the stone.
+                  Commonly known as sparkle, this is also referred to as scintillation.
                 </p>
-            </div>
-            <div className="card-action">
-              <a href="#modal4" className="modal-trigger">Learn More</a>
-
-              <div id="modal4" className="modal">
-                <div className="modal-content">
-                  <h4>The Four C's: Diamond Colors Across the Spectrum</h4>
-                  <img className="responsive-img" src={caratDiag} alt="Carat Weight Diagram" />
-                  <p>
-                    One carat is divided into 100 points, so that a diamond of
-                    75 points weighs 0.75 carats. The carat-weight of a diamond
-                    is the easiest measurement to determine.<br /><br />
-                    As the carat weight of a diamond increases,
-                    so does its rarity and therefore it's price and value.
-                  </p>
-                </div>
               </div>
+              <div className="card-action">
+                <a href="#modal4" className="modal-trigger">Learn More</a>
 
+                <div id="modal4" className="modal">
+                  <div className="modal-content">
+                    <h4>The Four C's: Diamond Colors Across the Spectrum</h4>
+                    <img className="responsive-img" src={caratDiag} alt="Carat Weight Diagram" />
+                    <p>
+                      One carat is divided into 100 points, so that a diamond of
+                      75 points weighs 0.75 carats. The carat-weight of a diamond
+                    is the easiest measurement to determine.<br /><br />
+                      As the carat weight of a diamond increases,
+                      so does its rarity and therefore it's price and value.
+                  </p>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
+
+
         </div>
 
+      </div>
 
+      <div className="lowerImg parallax"></div>
+
+      <div className="row homeSection2">
+        <h1>CUSTOM JEWELLERY</h1>
+        <h5>INCREASE THE BEAUTY AND INCREASE THE VALUE!</h5>
+        <hr className="divider" />
+        <div className="container">
+          <p>
+            The overwhelming majority of the world’s supply of cut and polished diamonds are ultimately
+            incorporated and showcased into finished pieces of luxury jewelry. Thereafter the jewelry is
+            marketed globally through upscale retailers, auction houses or through private sales to end
+            users (consumers) seeking quality of design and fabrication. This process enhances the value
+            and aesthetic beauty of the diamond(s) so incorporated.
+        </p>
+          <p>
+            By incorporating one or more rare natural colour diamonds into a unique and aesthetically desirable
+            jewelry creation, the value of the finished product is increased and the ability to showcase the
+            diamonds for sale to a third party buyer is enhanced.
+        </p>
+          <p>
+            At Forever Rare, we design and manufacture custom (one-of-a-kind) jewelry creations
+            to showcase the beauty of our clients natural colour diamonds.
+  
+            According to the Diamond Industry Report, prepared by Bain & Company, Inc., global retail
+            sales of jewelry incorporating diamonds for the year 2011 was approximately USD $72 billion
+            and it was estimated that this figure would increase by 6% per year due to the expansive
+            wealth and buying patterns which have emerged in China, India and Russia.
+        </p>
+          <p>
+            In creating a custom designed jewelry creation our clients provide us with their budget
+            and are thereafter provided with one or more design renderings for their selection.
+            Depending on the design selected in consultation with their respective account representatives,
+            the jewelry piece is crafted in either 14 karat or 18 karat gold (white, yellow or rosê) or
+            platinum incorporating our clients natural colour diamond(s).
+        </p>
+          <p>
+            Depending on our clients budget, various additional white diamonds can be included, all of
+            which are VS clarity or better. One must appreciate that natural colour diamonds are similar
+            to snowflakes... each is unique and no two are exactly alike. This also holds true for our
+            custom-made jewelry. Each piece is unique and one-of-a-kind.
+        </p>
+          <p>
+            Our account representatives and design team can fulfill virtually any request for a custom
+            designed jewelry creation incorporating our clients natural colour diamonds.
+        </p>
+          <p>
+            Our design service is gratis to the clients of Genesis Rare Diamonds and custom design
+            renderings in advance of fabrication are available for rings, earrings, bracelets,
+            pendants, necklaces and brooches.
+        </p>
+        </div>
       </div>
 
     </div>
-
-    <div className="lowerImg parallax"></div>
-
-    <div className="row homeSection2">
-      <h1>CUSTOM JEWELLERY</h1>
-      <h5>INCREASE THE BEAUTY AND INCREASE THE VALUE!</h5>
-      <hr className="divider" />
-      <div className="container">
-        <p>
-          The overwhelming majority of the world’s supply of cut and polished diamonds are ultimately
-          incorporated and showcased into finished pieces of luxury jewelry. Thereafter the jewelry is
-          marketed globally through upscale retailers, auction houses or through private sales to end
-          users (consumers) seeking quality of design and fabrication. This process enhances the value
-          and aesthetic beauty of the diamond(s) so incorporated.
-        </p>
-        <p>
-          By incorporating one or more rare natural colour diamonds into a unique and aesthetically desirable
-          jewelry creation, the value of the finished product is increased and the ability to showcase the
-          diamonds for sale to a third party buyer is enhanced.
-        </p>
-        <p>
-          At Forever Rare, we design and manufacture custom (one-of-a-kind) jewelry creations
-          to showcase the beauty of our clients natural colour diamonds.
-
-          According to the Diamond Industry Report, prepared by Bain & Company, Inc., global retail
-          sales of jewelry incorporating diamonds for the year 2011 was approximately USD $72 billion
-          and it was estimated that this figure would increase by 6% per year due to the expansive
-          wealth and buying patterns which have emerged in China, India and Russia.
-        </p>
-        <p>
-          In creating a custom designed jewelry creation our clients provide us with their budget
-          and are thereafter provided with one or more design renderings for their selection.
-          Depending on the design selected in consultation with their respective account representatives,
-          the jewelry piece is crafted in either 14 karat or 18 karat gold (white, yellow or rosê) or
-          platinum incorporating our clients natural colour diamond(s).
-        </p>
-        <p>
-          Depending on our clients budget, various additional white diamonds can be included, all of
-          which are VS clarity or better. One must appreciate that natural colour diamonds are similar
-          to snowflakes... each is unique and no two are exactly alike. This also holds true for our
-          custom-made jewelry. Each piece is unique and one-of-a-kind.
-        </p>
-        <p>
-          Our account representatives and design team can fulfill virtually any request for a custom
-          designed jewelry creation incorporating our clients natural colour diamonds.
-        </p>
-        <p>
-          Our design service is gratis to the clients of Genesis Rare Diamonds and custom design
-          renderings in advance of fabrication are available for rings, earrings, bracelets,
-          pendants, necklaces and brooches.
-        </p>
-      </div>
-    </div>
-
-  </div>
-);
-
+    );
+    
 export default Home;

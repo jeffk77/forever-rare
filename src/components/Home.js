@@ -14,6 +14,7 @@ import diamondLoupe from '../assets/images/diamondloupecrop.jpg';
 import dispersion from '../assets/images/dispersion.png';
 import giaCertcropped from '../assets/images/giacertcropped.jpg';
 import reflection from '../assets/images/reflection.png';
+import refraction from '../assets/images/refraction.png';
 
 
 const Home = () => (
@@ -258,6 +259,86 @@ const Home = () => (
                     scintillation, an effect of the stone’s reflection and refraction of light.
                   </p><br /><br />
 
+                  <div className="row">
+
+                    <div className="col s12 m12 l4">
+                      <div className="card eduDiamCard">
+                        <div className="card-image">
+                          <img src={reflection} alt="Reflection Diagram" />
+                        </div>
+                        <div className="card-content">
+                          <span className="card-title">Reflection Diagram</span>
+                          <p>
+                            When light enters the surface of a diamond, a portion of it is reflected back out of the top.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col s12 m12 l4">
+                      <div className="card eduDiamCard">
+                        <div className="card-image">
+                          <img src={refraction} alt="Refraction Diagram" />
+                        </div>
+                        <div className="card-content">
+                          <span className="card-title">Refraction Diagram</span>
+                          <p>
+                            The remaining rays of light travel into the center of the diamond and bounce off its internal walls,
+                            an effect known as refraction.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col s12 m12 l4">
+                      <div className="card eduDiamCard">
+                        <div className="card-image">
+                          <img src={dispersion} alt="Dispersion Diagram" />
+                        </div>
+                        <div className="card-content">
+                          <span className="card-title">Dispersion Diagram</span>
+                          <p>
+                            As light exits the diamond, dispersion causes the white light to be separated into multiple colours.
+                            Some light will escape out the bottom and sides, and some will reflect out of the top of the stone.
+                          </p>
+                        </div>
+                      </div>
+                      <br /><br />
+                    </div>
+
+                    <img className="responsive-img" src={giaCertcropped} alt="GIA Certificate" />
+                    
+
+
+
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  
                   </div>
                 </div>
 

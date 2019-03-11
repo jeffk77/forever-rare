@@ -305,10 +305,49 @@ const Home = () => (
                       </div>
                       <br /><br />
                     </div>
-
-                    <img className="responsive-img" src={giaCertcropped} alt="GIA Certificate" />
                     
+                    <img className="responsive-img" src={giaCertcropped} alt="GIA Certificate" />
+                    <h5>Certification</h5>
+                    <p>
+                      A diamond certificate, also known as a diamond grading report, is an easily understood document prepared
+                      by an expert gemologist that describes the key characteristics of a diamond. Every diamond sold by
+                      Excalibur Royale is certified a third-party certification laboratory such as the Gemological Institute of America (GIA).
+                    </p><br /><br />
 
+                    <img className="responsive-img" src={clarityScale} alt="Clarity Scale" />
+                    <h5>Clarity Scale</h5>
+                    <p>
+                      <ul>
+                        <li>FL-IF: No Internal Inclusions</li>
+                        <li>VVS-1 - VVS-2: Very very small inclusions. Very difficult to detect until 10x magnification.</li>
+                        <li>VS-1 - VS-2: Very small inclusions. Can be seen under 10x magnification and in some cases to the naked eye.</li>
+                        <li>SI-1 - SI-3: Small inclusions. Can be seen under 10x magnification and in some cases to the naked eye.</li>
+                        <li>I-1 - I-3: Imperfect. Inclusions are visible under 10x magnification and in most cases to the naked eye.</li>
+                      </ul>
+                    </p><br /><br />
+
+                    <h5>Selecting a Clarity</h5>
+                    <p>
+                      Below are some points to consider when selecting your desired clarity rating:<br /><br />
+
+                      Those who prefer a diamond with little or no inclusions will likely choose a clarity rating of FL-IF or VVS.
+                      Although they are priced higher, these high-quality diamonds boast a near-perfect appearance.<br /><br />
+
+                      While still considered high quality, diamonds rated in the VS clarity range will not cost as much as more
+                      premium clarities. VS diamonds will contain inclusions that are undetectable to the unaided eye.<br /><br />
+
+                      Considered by many to be a great value, SI1-SI2 diamonds will contain inclusions that can be detected with
+                      magnification, yet are typically undetectable to the unaided eye and do not detract from the beauty of the
+                      diamond. If you are considering a diamond with an SI rating, contact a Brilliance diamond and jewelry expert
+                      to ensure the inclusions are not visible to the naked eye.<br /><br />
+
+                      Those who desire large carat weights at lower prices may choose diamonds in the SI3-I1 clarity range.
+                      Inclusions in these stones are usually noticeable without magnification.<br /><br />
+
+                      The location of a diamond's inclusions significantly impacts the stone's clarity rating. External and
+                      internal characteristics hidden near the side facets of a diamond detract from its beauty less than
+                      inclusions and blemishes located in the center of the diamond.<br /><br />
+                    </p><br /><br />
 
 
                   </div>

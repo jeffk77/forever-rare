@@ -39,7 +39,7 @@ body {
 }
 
 .logo {
-  padding-bottom: 50px;
+  padding: 30px 30px 50px 30px;
 }
 
 nav {
@@ -140,4 +140,8 @@ footer .row {
 footer .col {
   text-align: center;
   height: auto;
+}
+
+footer .ccLogos {
+  width: 200px;
 }

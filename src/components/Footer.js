@@ -1,19 +1,21 @@
 import React from 'react';
 import Logo from '../assets/images/FRDlogo.png';
+import ccLogos from '../assets/images/ccLogos.png';
 
 const Footer = () => (
   <div>
       <footer>
         <div className="row">
           <div className="col l2 m2 hide-on-med-and-down">
-            Column 1
+            <img className="responsive-img footerLogo" src={Logo} alt="FRD Logo" />
           </div>
           <div className="col l8 m12 s12">
-            Column 2
+            <h5>Forever Rare Color Diamonds Ltd.</h5>
+            <p>[T] 416.363.5825 -- [F] 416-352-1572<br />
+            [E] info@forever-rare.com</p>
           </div>
           <div className="col l2 m2 hide-on-med-and-down">
-            <h6>info@forever-rare.com<br />
-            416-363-5825</h6>
+            <img className="responsive-img ccLogos" src={ccLogos} alt="Credit Card Logos" />
           </div>
         </div>
       </footer>

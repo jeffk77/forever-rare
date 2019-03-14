@@ -172,7 +172,7 @@ const Home = () => (
           Our account representatives and design team can fulfill virtually any request for a custom
           designed jewelry creation incorporating our clients natural colour diamonds.<br /><br />
 
-          Our design service is gratis to the clients of Genesis Rare Diamonds and custom design
+          Our design service is gratis to the clients of Forever Rare and custom design
           renderings in advance of fabrication are available for rings, earrings, bracelets,
           pendants, necklaces and brooches.
         </p>

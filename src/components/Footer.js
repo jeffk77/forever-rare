@@ -7,7 +7,9 @@ const Footer = () => (
       <footer>
         <div className="row">
           <div className="col l2 m2 hide-on-med-and-down">
-            <img className="responsive-img footerLogo" src={Logo} alt="FRD Logo" />
+            <img className="responsive-img footerLogo" src={Logo} alt="FRD Logo" /><br /><br />
+            49 Ontario Street, Suite 704<br />
+            Toronto, Ontario | Canada | M5A 2V1
           </div>
           <div className="col l8 m12 s12">
             <h5>Forever Rare Color Diamonds Ltd.</h5>

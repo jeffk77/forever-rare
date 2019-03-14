@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import Home from './components/Home';
+import Education from './components/Education';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -19,6 +20,7 @@ class App extends Component {
         <div className="App-intro">
           <Switch>
             <Route exact path="/"  component={Home} />
+            <Route exact path="/Education" component={Education} />
             <Redirect to="/" />
           </Switch>
         </div>

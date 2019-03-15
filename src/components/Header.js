@@ -11,13 +11,13 @@ const Header = () => (
     </div>
     <div className="headerBar z-depth-3">
       <div className="row">
-        <div className="col s12 m2 l2 hide-on-med-and-down">
+        <div className="col s12 m3 l3 hide-on-med-and-down">
           <h5><i className="material-icons">mail_outline</i><i className="material-icons">perm_phone_msg</i> +1 (416) 363-5825</h5>
         </div>
-        <div className="col s12 m12 l8">
+        <div className="col s12 m12 l6">
           <img src={Logo} className="responsive-img logo" id="corpLogo" alt="FRD Logo" />
         </div>
-        <div className="col s2"></div>
+        <div className="col s3"></div>
       </div>
 
       <nav className="nav-center">

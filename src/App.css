@@ -71,50 +71,42 @@ nav ul a {
   margin-bottom: 30px;
 }
 
-.homeImg {
-  height: 300px;
+.homeImg, .midImg, .lowerImg, .educationImg, .educMainImg, .aboutImg {
   border-top: 1px solid black;
-  background-image: url("./assets/images/mixedDiamonds.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.homeImg {
+  height: 300px;
+  background-image: url("./assets/images/mixedDiamonds.jpg");
 }
 
 .midImg {
   height: 500px;
   background-image: url("./assets/images/yellowDiamonds.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .lowerImg {
   height: 500px;
   background-image: url("./assets/images/customJewellery.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .educationImg {
   height: 300px;
   background-image: url("./assets/images/diamondScope.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .educMainImg {
   height: 500px;
   background-image: url("./assets/images/diamondSpread.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+}
+
+.aboutImg {
+  height: 500px;
+  background-image: url("./assets/images/spilledDiamonds.jpg");
 }
 
 .diamondTitle {

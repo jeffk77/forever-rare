@@ -32,9 +32,26 @@ const Education = () => (
       </p>
     </div>
 
-    <div className="educMainImg parallax"></div>
+    <div className="educMainImg parallax"></div><br /><br />
 
     <div className="container">
+      <div className="container">
+        <div className="row">
+          <div className="col s12">
+            <ul className="tabs">
+              <li className="tab col s3"><a className="active" href="#diamCut"><h6>Diamond Cut</h6></a></li>
+              <li className="tab col s3"><a href="#diamCarat"><h6>Diamond Carat</h6></a></li>
+              <li className="tab col s3"><a href="#diamColor"><h6>Diamond Color</h6></a></li>
+              <li className="tab col s3"><a href="#diamClarity"><h6>Diamond Clarity</h6></a></li>
+            </ul>
+          </div>
+          <div id="diamCut" className="col s12"><Cut /></div>
+          <div id="diamCarat" className="col s12"><Carat /></div>
+          <div id="diamColor" className="col s12"><Color /></div>
+          <div id="diamClarity" className="col s12"><Clarity /></div>
+        </div>
+      </div>
+
     </div>
 
   </div>

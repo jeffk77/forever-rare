@@ -9,6 +9,8 @@ import {
 
 import Home from './components/Home';
 import Education from './components/Education';
+import About from './components/About';
+
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -21,6 +23,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/"  component={Home} />
             <Route exact path="/Education" component={Education} />
+            <Route exact path="/About" component={About} />
             <Redirect to="/" />
           </Switch>
         </div>

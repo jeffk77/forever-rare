@@ -13,7 +13,7 @@ const Footer = () => (
           </div>
           <div className="col l8 m12 s12">
             <h5>Forever Rare Color Diamonds Ltd.</h5>
-            <p>[T] 416.363.5825 -- [F] 416-352-1572<br />
+            <p>[T] 416.363.5825 -- [F] 416.352.1572<br />
             [E] info@forever-rare.com</p>
           </div>
           <div className="col l2 m2 hide-on-med-and-down">

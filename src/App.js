@@ -12,6 +12,7 @@ import Education from './components/Education';
 import About from './components/About';
 import Market from './components/Market';
 import PriceMatch from './components/PriceMatch';
+import Contact from './components/Contact';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path="/About" component={About} />
             <Route exact path="/Market" component={Market} />
             <Route exact path="/PriceMatch" component={PriceMatch} />
+            <Route exact path="/Contact" component={Contact} />
             <Redirect to="/" />
           </Switch>
         </div>

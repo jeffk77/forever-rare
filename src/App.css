@@ -71,7 +71,7 @@ nav ul a {
   margin-bottom: 30px;
 }
 
-.homeImg, .midImg, .lowerImg, .educationImg, .educMainImg, .aboutImg {
+.homeImg, .midImg, .lowerImg, .educationImg, .educMainImg, .aboutImg, .contactImg, .priceImg {
   border-top: 1px solid black;
   background-position: center;
   background-size: cover;
@@ -107,6 +107,16 @@ nav ul a {
 .aboutImg {
   height: 500px;
   background-image: url("./assets/images/spilledDiamonds.jpg");
+}
+
+.contactImg {
+  height: 500px;
+  background-image: url("./assets/images/mixeddiamonds3.jpeg");
+}
+
+.priceImg {
+  height: 500px;
+  background-image: url("./assets/images/spilleddiamonds2.jpeg");
 }
 
 .diamondTitle {

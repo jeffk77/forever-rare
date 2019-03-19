@@ -4,7 +4,7 @@ import SimpleMap from './SimpleMap';
 
 const Contact = () => (
   <div>
-    <div className="aboutImg parallax"></div>
+    <div className="contactImg parallax"></div>
 
     <div className="row homeSection1">
 
@@ -14,7 +14,7 @@ const Contact = () => (
 
       <div className="container">
         <div className="row">
-          <div className="col s12 m6 l6">
+          <div className="col s12">
             <h4>
               49 ONTARIO STREET<br />
               SUITE 704<br />
@@ -25,8 +25,6 @@ const Contact = () => (
               [F] 416.352.1572<br />
               [E] info@forever-rare.com
             </h4>
-          </div>
-          <div className="col s12 m6 l6">
           </div>
         </div>
       </div>

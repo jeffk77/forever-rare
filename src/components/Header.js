@@ -28,7 +28,6 @@ const Header = () => (
             <li><a href="About">ABOUT US</a></li>
             <li><a href="Market">THE MARKET</a></li>
             <li><a href="PriceMatch">PRICE MATCH GUARANTEE</a></li>
-            <li><a href="ourServices.html">OUR SERVICES</a></li>
             <li><a href="Contact">CONTACT</a></li>
           </ul>
         </div>

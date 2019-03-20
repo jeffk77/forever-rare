@@ -71,7 +71,7 @@ nav ul a {
   margin-bottom: 30px;
 }
 
-.homeImg, .midImg, .lowerImg, .educationImg, .educMainImg, .aboutImg, .contactImg, .priceImg {
+.homeImg, .midImg, .lowerImg, .educationImg, .educMainImg, .aboutImg, .aboutImg2, .aboutImg3, .contactImg, .priceImg, .marketImg, .marketImg2, .marketImg3 {
   border-top: 1px solid black;
   background-position: center;
   background-size: cover;
@@ -105,18 +105,43 @@ nav ul a {
 }
 
 .aboutImg {
-  height: 500px;
+  height: 300px;
   background-image: url("./assets/images/spilledDiamonds.jpg");
+}
+
+.aboutImg2 {
+  height: 500px;
+  background-image: url("./assets/images/spilleddiamonds2.jpeg");
+}
+
+.aboutImg3 {
+  height: 500px;
+  background-image: url("./assets/images/spillingdiamonds.jpeg");
 }
 
 .contactImg {
   height: 500px;
-  background-image: url("./assets/images/mixeddiamonds3.jpeg");
+  background-image: url("./assets/images/mixeddiamonds2.jpg");
 }
 
 .priceImg {
   height: 500px;
   background-image: url("./assets/images/spilleddiamonds2.jpeg");
+}
+
+.marketImg {
+  height: 300px;
+  background-image: url("./assets/images/purpleDiamonds.jpg");
+}
+
+.marketImg2 {
+  height: 500px;
+  background-image: url("./assets/images/mixedDiamonds4.jpeg");
+}
+
+.marketImg3 {
+  height: 500px;
+  background-image: url("./assets/images/mixeddiamonds3.jpeg");
 }
 
 .diamondTitle {

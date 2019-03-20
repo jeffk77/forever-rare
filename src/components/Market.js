@@ -2,7 +2,7 @@ import React from 'react';
 
 const Market = () => (
   <div>
-    <div className="aboutImg parallax"></div>
+    <div className="marketImg parallax"></div>
 
     <div className="row homeSection1">
 
@@ -31,7 +31,7 @@ const Market = () => (
 
     </div>
 
-    <div className="aboutImg parallax"></div>
+    <div className="marketImg2 parallax"></div>
 
     <div className="container">
       <p>
@@ -54,7 +54,7 @@ const Market = () => (
       </p>
     </div>
 
-    <div className="aboutImg parallax"></div>
+    <div className="marketImg3 parallax"></div>
 
     <div className="container">
       <p>

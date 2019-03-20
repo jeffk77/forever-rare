@@ -33,7 +33,7 @@ const About = () => (
 
     </div>
 
-    <div className="aboutImg parallax"></div>
+    <div className="aboutImg2 parallax"></div>
 
     <div className="row homeSection1">
 
@@ -60,7 +60,7 @@ const About = () => (
 
     </div>
 
-    <div className="aboutImg parallax"></div>
+    <div className="aboutImg3 parallax"></div>
 
     <div className="row homeSection1">
 

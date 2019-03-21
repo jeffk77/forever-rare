@@ -15,7 +15,7 @@ const Header = () => (
           <h5><i className="material-icons">mail_outline</i><i className="material-icons">perm_phone_msg</i> +1 (416) 363-5825</h5>
         </div>
         <div className="col s12 m12 l6">
-          <img src={Logo} className="responsive-img logo" id="corpLogo" alt="FRD Logo" />
+          <img src={Logo} className="responsive-img logo" alt="FRD Logo" />
         </div>
         <div className="col s3"></div>
       </div>
